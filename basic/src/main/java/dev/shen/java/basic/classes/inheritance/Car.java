@@ -18,6 +18,11 @@ public class Car extends Vehicle {
         System.out.println("Car engine starting with key...");
     }
 
+    // Add new functionality
+    public void honk() {
+        System.out.println("Beep beep!");
+    }
+
     public static void main(String[] args){
         Car car = new Car("Tesla", "X", 2019, 5);
         System.out.println("The car is: " + car);
