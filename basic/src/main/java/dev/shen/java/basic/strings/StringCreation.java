@@ -1,4 +1,4 @@
-package dev.shen.java.basic.introduction.strings;
+package dev.shen.java.basic.strings;
 
 public class StringCreation {
     public static void main(String[] args) {
